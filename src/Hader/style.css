@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  border: solid black;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  padding-top: 15px;
+}
+.navbar li {
+  display: inline;
+  padding-right: 100px;
+}
+.Link {
+  
+}
