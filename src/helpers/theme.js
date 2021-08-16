@@ -45,14 +45,6 @@ overrides:{
         justifyContent: 'center',
         alignItems: "center",
       }
-    },
-    MuiFilledInput:{
-      root:{
-        fieldset:{
-          backgroundColor:'#fff'
-        }
-
-      }
     }
   }
 })
