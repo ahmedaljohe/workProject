@@ -35,26 +35,34 @@
 
 import {createMuiTheme} from '@material-ui/core/styles'
 
- export const shared = createMuiTheme({
-   palette:{
-    colors:
-   },
-  overrides:{
+export const loginTheme = createMuiTheme({
+overrides:{
     MuiPaper:{
       root:{
-        backgroundColor:'#0f0',
+        backgroundColor: "#f5f6fa",
         minHeight:'100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: "center",
+      }
+    },
+    MuiFilledInput:{
+      root:{
+        fieldset:{
+          backgroundColor:'#fff'
+        }
+
       }
     }
   }
 })
 
 // export const lightTheme=createMuiTheme({
+//   ...shared,
 //   palette:{
 //     type:'light',
+//     primary: {
+//       main: '#fff',
+//     },
 //   }
-
 // })

@@ -1,12 +1,12 @@
 import React from 'react'
 import {Form} from 'react-final-form'
 import TextInput from '../../components/globals/atoms/TextInput'
-import {Paper,Grid,InputAdornment,Button } from '@material-ui/core'
+import {Paper,Grid,Button } from '@material-ui/core'
 // import { Icon } from 'react-icons-kit'
 // import { user } from 'react-icons-kit/icomoon/user'
 // import { paste } from 'react-icons-kit/icomoon/paste'
 import { MuiThemeProvider } from '@material-ui/core/styles'
-import {shared} from '../../helpers/theme'
+import {loginTheme} from '../../helpers/theme'
 // import { useTheme } from '../../components/hooks/useTheme';
 // import { useStyle } from './Login.styles';
 
@@ -20,10 +20,10 @@ function Login() {
         window.alert(JSON.stringify(values, 0, 2));
       };
     return (
-      <MuiThemeProvider theme={shared}>
+      <MuiThemeProvider theme={loginTheme}>
         <Paper >
           <div className="login-content">
-            <h1>hello user</h1>
+            <h2>login</h2>
             <Form
               onSubmit={onSubmit}
               render={({handleSubmit})=>(
@@ -59,7 +59,12 @@ function Login() {
                   />
                   </Grid>
                   </Grid>
-                  <Button type='submit'>ghfghfgh</Button>
+                  <Grid item xs={12}>
+                  <Button style={{marginTop:8}} variant="contained" color="primary">
+                    Login
+                  </Button>
+                  <span style={{marginInlineStart:8}}>sighin</span>
+                  </Grid>
                 </form>
               )}
             />
