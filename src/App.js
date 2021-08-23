@@ -1,9 +1,9 @@
-import React from 'react';
-import Login from './pages/Login'
+import React from "react";
+import RootRouter from "./routers";
 function App() {
   return (
     <>
-     <Login />
+      <RootRouter />
     </>
   );
 }

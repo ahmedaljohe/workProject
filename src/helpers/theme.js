@@ -32,7 +32,6 @@
 //   }
 // });
 
-
 import {createMuiTheme} from '@material-ui/core/styles'
 
 export const loginTheme = createMuiTheme({
@@ -45,8 +44,8 @@ overrides:{
         justifyContent: 'center',
         alignItems: "center",
       }
-    }
-  }
+    },
+}
 })
 
 // export const lightTheme=createMuiTheme({
