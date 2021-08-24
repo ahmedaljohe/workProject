@@ -22,26 +22,21 @@ export const useStyle=makeStyles({
 			color: '#c0c0c0',
 			fontSize: '16px'
     },
-    '&MuiInputBase-formControl':{
-      '&.Mui-focused': {
-        transition:'background-color 5000s ease-in-out 0s',
-        backgroundColor: '#fff',
-      },
-    },
 		'& .MuiInputBase-input': {
             // Field Input Text,
 			color: 'black',
 			fontSize: '16px',
       textTransform: 'capitalize',
       backgroundColor: '#fff',
-      borderRadius:4,
+      borderRadius:6,
     },
         // Field Box Attributes
 		'& .MuiFilledInput-root': {
-      transition: 'background-color 200ms cubic-bezier(#ffff) 0ms',
+      background: '#fff',
+      borderRadius:6,
 			'& fieldset': {
-                borderColor: '#FE6F27',
-                background: '#fff',
+        borderColor: '#FE6F27',
+        background: '#fff',
 			},
 			'&:hover fieldset': {
         borderColor: '#ffffff',

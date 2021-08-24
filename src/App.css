@@ -8,9 +8,9 @@
   #root {
     height: 100%;
   }
-  
- 
-  
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  }
   body {
     background-color: #fff;
     margin: 0;

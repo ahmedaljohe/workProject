@@ -10,6 +10,17 @@ export const useStyle = makeStyles({
     borderRadius:0,
   },
   h2:{
-    color: 'red',
+    color: '#01a3ff',
+    fontFamily:'Courier New',
+    textAlign:'center',
+    height: 60
+  },
+  button:{
+    marginTop:8,
+    textTransform: 'capitalize',
+    minWidth: 140,
+    borderRadius: 10,
+    backgroundColor: '#01a3ff',
+    marginInlineStart:8,
   }
 })
