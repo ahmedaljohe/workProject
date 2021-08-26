@@ -65,10 +65,7 @@ function Login() {
                           {showPassword ? <Visibility /> : <VisibilityOff />}
                         </IconButton>
                       </InputAdornment>
-                    }}
-                    // InputProps={{
-                    //   endAdornment:<InputAdornment position="end"><Icon icon={paste} /></InputAdornment>
-                    // }}  
+                    }} 
                     variant="filled"
                   />
                   </Grid>
@@ -79,8 +76,7 @@ function Login() {
                     justify="space-between"
                     alignItems="center"
                   >
-                  {/* <Link to='/Signin'>sign in</Link> */}
-                  <h5 style={{cursor:'pointer'}} onClick={()=>history.push('/Signin')}> sign up</h5>
+                  <h5 style={{marginInlineStart:10}} onClick={()=>history.push('/Signin')}> sign up</h5>
                   <Button 
                     className={classes.button}
                     variant="contained"

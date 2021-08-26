@@ -22,5 +22,12 @@ export const useStyle = makeStyles({
     borderRadius: 10,
     backgroundColor: '#01a3ff',
     marginInlineStart:8,
+  },
+  span:{
+    color: '#01a3ff',
+    fontFamily:'Courier New',
+    fontSize:16,
+    cursor:'pointer',
+    marginInlineStart:10
   }
 })
